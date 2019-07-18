@@ -1,0 +1,42 @@
+<!--components/showpage/showpage.wxml-->
+<!-- 组件模板 -->
+<view class="item-contain">
+
+<view class="item-head">
+    <view class="headPortrait">
+        <image mode="scaleToFill" src="{{avatarUrl}}" class="photo"></image>
+    </view>
+
+    <view class="demo1">
+       <text class="item-userName"> {{nickName}}</text>
+       <text class="item-Time">{{uploadDate}}</text>
+    </view>
+</view>
+
+<view class="item-body">
+    <view wx:for-items="{{fileIDs}}" wx:for-item="item" wx:key="item.uploadDate">
+      <image mode="scaleToFill" src="{{item}}" class="body-photo"  bindtap="preview"  data-src="{{item}}" data-index="{{index}}"></image>
+     </view>
+    
+</view>
+
+<view class="item-foot">
+        <view class="praise">
+        <image src="../../images/mainPage/praise.png" class="praisePhoto"></image>
+        <text class="praiseText" data-recordid="{{recordid}}" bindtap="handleUpvote">{{num}}人点赞</text>
+        </view>
+
+        <view class="delete" wx:if="{{isDisplay}}">
+        <image src="../../images/mainPage/delete.png" class="deletePhoto"></image>
+        <text class="deleteText" data-recordid="{{recordid}}" bindtap="handleDelete">删除</text>
+        </view>
+
+         <view class="share">
+        <image src="../../images/mainPage/share.png" class="sharePhoto"></image>
+        <button open-type="share" class="shareButton">分享</button>
+        </view>
+    </view>
+
+  <slot></slot>
+</view>
+

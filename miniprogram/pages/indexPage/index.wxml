@@ -1,0 +1,6 @@
+<!--miniprogram/pages/indexPage/index.wxml-->
+<view class="item-contain">
+<image src="../../images/indexPage/photo.jpg">
+</image>
+<text>GTA小程序正在检测您的登录授权，请等候！</text>
+</view>

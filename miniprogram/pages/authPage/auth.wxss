@@ -1,0 +1,11 @@
+/* miniprogram/pages/authPage/auth.wxss */
+.item-contain {
+  margin: 30rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-contain image {
+  border-radius: 5%;
+}

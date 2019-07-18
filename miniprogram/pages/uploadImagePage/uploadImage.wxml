@@ -1,0 +1,17 @@
+<view class=".intem-contain">
+  <view class="item-head" wx:for='{{userInfo.avatarUrl}}'>
+     <image src='{{item}}' data-index='{{index}}' class="userphoto"     bindtap='previewImg'></image>
+        <text class="user-info">{{userInfo.nickName}}</text>
+        <text class="time">{{loginTime}}</text>
+        <image src="../../images/uploadImagePage/bg1.png" class="bg"></image>
+  </view>
+
+  <view class="item-body" bindtap='chooseImage'>
+    <image src="../../images/uploadImagePage/add.png"></image>
+    <text>上传照片</text>
+  </view>
+
+  <view class="item-foot">
+    <image src="../../images/uploadImagePage/bg.png"></image>
+  </view>
+</view>

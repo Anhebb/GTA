@@ -1,0 +1,18 @@
+/* miniprogram/pages/indexPage/index.wxss */
+.item-contain {
+  margin: 100rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-contain image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%
+}
+
+.item-contain text {
+  margin-top: 50rpx; 
+  font-size: 12px;
+}

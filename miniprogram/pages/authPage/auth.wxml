@@ -1,0 +1,9 @@
+<!--miniprogram/pages/authPage/authPage.wxml-->
+<view class="item-contain">
+<image src="../../images/authPage/gta.jpg"></image>
+
+
+<text>给他</text>
+<text>请给他爱，GTA！</text>
+</view>
+<button type="primary" v-if="canIUse" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">微信登录</button>

@@ -1,0 +1,95 @@
+/* components/showpage/showpage.wxss */
+.headPortrait  {
+  margin-left: 30rpx;
+  display: inline-block;
+
+}
+.item-contain {
+  border: 3rpx solid #ccc;
+  /* border-top: 3rpx solid #666; 
+  border-bottom: 15rpx solid #666; 
+  border-left: 10rpx solid #666; 
+  border-right: 5rpx solid #666;  */
+  box-shadow: 5rpx 5rpx 2rpx #ccc;
+  padding: 5rpx;
+  margin:10rpx;
+}
+
+.photo {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  box-shadow: -1px 0 5rpx #DDDDDD, 1px 0 5px #DDDDDD, 0 -1px 5px #DDDDDD, 0 1px 5px #DDDDDD;
+}
+
+.demo1 {
+  margin: 36rpx;
+  display: inline-block;
+}
+
+.item-Time {
+  font-size: 13px;
+  color: #ccc
+}
+.item-userName {
+  font-size: 16px;
+  display: block;
+}
+
+.item-body {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding-left:10rpx; 
+}
+.body-photo {
+  width: 210rpx;
+  height: 210rpx;
+  margin-left: 14rpx;
+  border-radius: 8%;
+  margin-top: 5rpx;
+}
+
+.item-foot {
+  margin-top: 48rpx; 
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.praisePhoto,
+.deletePhoto,
+.sharePhoto {
+  width: 26rpx;
+  height: 26rpx;
+}
+
+.praiseText,
+.deleteText {
+  margin-left: 10rpx;
+  color: skyblue;
+}
+
+.share {
+  width: 106rpx;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+  
+}
+
+
+.shareButton {
+  color: skyblue;
+  line-height: 50rpx;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+
+
+

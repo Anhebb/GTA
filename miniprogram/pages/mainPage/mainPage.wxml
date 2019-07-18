@@ -1,0 +1,12 @@
+<!-- 引用组件的页面模版 -->
+<view>
+
+  <view wx:for-items="{{allUserPhoto}}" wx:for-item="item" wx:key="{{item.uploadDate}}">
+    <showpage fileIDs="{{item.fileIDs}}" nickName="{{item.nickName}}" avatarUrl="{{item.avatarUrl}}" uploadDate="{{item.uploadDate}}" recordid="{{item._id}}" num="{{item.upvoteCnt}}" isDisplay="{{item.isDisplay}}">
+    </showpage>
+  </view>
+
+  <view class="item-add">
+  <image src="../../images/mainPage/update.png" bindtap="updata"></image>
+  </view>
+</view>

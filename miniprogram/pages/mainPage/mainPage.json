@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+  "showpage": "../../components/showpage/showpage"
+  },
+  "navigationBarBackgroundColor": "#26ACF5",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "相册",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+  }
+ 
